@@ -7,7 +7,7 @@ void main(void){
 	DDRA=0x00;
 	DDRD=0x01;
 	
-	//enable external clk on pin A0
+	//enable pull up internal clk on pin A0
 	PORTA=0x01;
 	//elpin lw dakhel 3aleha sfr fa kda elswitch mdas 3aleh fa elled elmafreoud tshtaghal
 	
