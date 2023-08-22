@@ -11,7 +11,7 @@ void main(void){
 	PORTA=0x01;
 	//elpin lw dakhel 3aleha sfr fa kda elswitch mdas 3aleh fa elled elmafreoud tshtaghal
 	
-	while(1){//super loop to keep checking
+	while(1){//super lop to keep checking
 	//CHECK IF THE SWITCH IS PUSHED SO THE LED IS OFF
 	if(PORTA & 0x01){
 		PORTD==0x00;
