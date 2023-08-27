@@ -1,7 +1,7 @@
 #define F_CPU 1000000UL 
 #include <avr/io.h>
 #include <avr/delay.h>
-//we want to turn on-off a led on PD0 using  switch on pin PA0
+//we want to turn onn-off a led on PD0 using  switch on pin PA0
 void main(void){
 	//
 	DDRA=0x00;
