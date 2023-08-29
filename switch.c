@@ -9,7 +9,7 @@ void main(void){
 	
 	//enable pull up internal clk on pin A0
 	PORTA=0x01;
-	//elpin lw dakhel 3aleha sfr fa kda elswitch mdas 3aleh fa elled elmafreoud tshtaghal
+	//elpin lw dakhel 3aleha sfr fa kda elswitch das 3aleh fa elled elmafreoud tshtaghal
 	
 	while(1){//super lop to keep checking
 	//CHECK IF THE SWITCH IS PUSHED SO THE LED IS OFF
